@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+body{
+    background: url(shape.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+p{
+    margin-top: 119px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+span{
+    color: rgb(223,119,143);
+}
+#fname{
+    margin-right: 2px;
+}
+#lname{
+    margin-left: 2px;
+}
+#fname,#lname{
+    font-size: 20px;
+    border-bottom: 3px solid rgb(34, 30, 67);
+    width: 222px;
+    background-color: rgb(254, 241, 212);
+    margin-top: 26px;
+    margin-bottom: 8px;
+    padding: 12px 15px;
+    
+}
+#name,#lname::placeholder{
+    color: darkgrey;
+}
+#email{
+    font-size: 20px;
+    border-bottom: 3px solid rgb(34, 30, 67);
+    width: 448px;
+    background-color: rgb(254, 241, 212);
+    margin-top: 5px;
+    margin-bottom: 8px;
+    padding: 12px 15px;
+    appearance: none;
+}
+#email::placeholder{
+    color: darkgrey;
+}
+#password{
+    font-size: 20px;
+    border-bottom: 3px solid rgb(34, 30, 67);
+    width: 448px;
+    background-color: rgb(254, 241, 212);
+    margin-top: 5px;
+    margin-bottom: 2px;
+    padding: 12px 15px;
+   
+}
+#password::placeholder{
+    color: darkgrey;
+}
+
+.another{
+   display: flex;
+   
+   margin: 15px auto;
+   justify-content: center;
+}
+#text{
+text-decoration: none;
+font-weight: lighter;
+font-size: 20px;
+margin-top: 0;
+margin-bottom: 0;
+}
+#login{
+border: 0;
+outline: 0;
+background: none;
+font-size: 20px;
+text-decoration: none;
+appearance: none;
+color: black;
+margin-left: 10px;
+}
+#login:hover{
+    color: rgb(230, 104, 133);
+    font-weight: bolder;
+}
+
+#submit{
+    display: block;
+    font-size: 20px;
+    border: 3px solid rgb(34, 30, 67);
+    width: 140px;
+    background-color: rgb(34, 30, 67);
+    margin-top: 20px;
+    margin-bottom: 4px;
+    padding: 12px 15px;
+    border-radius: 17px;
+    color: rgb(254, 241, 212);
+    margin: 8px auto;
+}
+#submit:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
